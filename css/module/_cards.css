@@ -1,0 +1,23 @@
+.cards {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+}
+.card {
+    background-color: #282828;
+    color: #ffffff;
+    padding: 1rem;
+    text-align: center;
+    width: 230px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    gap: 16px;
+}
+.image__card {
+    max-width: 100%;
+    height: auto;
+}
